@@ -1,18 +1,18 @@
 <?php
 
 class Home{
-    public function index($id)
+    public function index()
     {
-        echo "Homepage view ".$id;
+        echo "Homepage view ";
     } 
     
-    public function edit($id)
+    public function edit()
     {
-        echo "Homepage editing ".$id;
+        echo "Homepage editing ";
     } 
 
-    public function delete($id)
+    public function delete()
     {
-        echo "Homepage delete ".$id;
+        echo "Homepage delete ";
     } 
 }
